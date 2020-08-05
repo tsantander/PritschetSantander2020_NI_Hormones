@@ -24,7 +24,7 @@ registerDoMC(cores=24)
 # Navigate to where the data live, load things into memory.
 #--------------------------------------------------------------------------
 
-setwd('/home/tyler/28andMe/results.network.rest/results.gsr') 
+setwd('/home/tyler/28andMe/results.network.rest') 
 source('./permTestEdgeVAR.R')
 
 zCoh <- read.csv('./edgewiseCoherence.csv', header = FALSE)
