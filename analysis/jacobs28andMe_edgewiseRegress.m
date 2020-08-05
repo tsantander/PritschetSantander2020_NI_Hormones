@@ -21,7 +21,7 @@ function [betas, tstat, pT] = jacobs28andMe_edgewiseRegress(zCoherence, zHormone
 %
 %   pT
 %       nHormones x nEdges matrix of empirical p-values for t-statistics,
-%       derived though 10000 iterations of nonparametric permutation
+%       derived through 10000 iterations of nonparametric permutation
 %       testing.
 %__________________________________________________________________________
 %
